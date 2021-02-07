@@ -15,7 +15,10 @@ void setup() {
   pinMode(sensor2Pin, INPUT);
   pinMode(sensor3Pin, INPUT);
 
-  dht.begin();
+  dht1.begin();
+  dht2.begin();
+  dht3.begin();
+
   Serial.begin(9600);
   Serial.print("Temperature(°F): s1,s2,s3 , Humidity(%): s1,s2,s3\n");
 }
@@ -50,4 +53,6 @@ void loop() {
   Serial.print(h3);
 
   Serial.print("\n");
+
+  delay(5000);
 }
