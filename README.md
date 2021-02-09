@@ -41,13 +41,20 @@ My method for taking data was to collect 200 data points over a period of 200 se
 
 ## Code
 
-The code is rather simple as I used the Adafruit & DHT Library. I printed the values to the serial monitor in a CSV style format so that is could later be easily pasted into a CSV file.
+After importing necessary libraries, I defined the pins and sensor type, instantiated the sensors, and correlated the pinMode's.
+
+The main loop consists of reading the temperature and humidity from each sensor, confirming the data is not NAN (not a number), and printing the results.
+I decided to print the data to the serial monitor in a CSV format so I could later copy and paste into a CSV file and import it into Excel.
 
 [Link to test file](https://github.com/dominicassia/DHT-11_Test/blob/main/Test/Test.ino)
 
 ## Results
 
-Overall the results were not that suprising as I was not expecting these sensors to be super accurate. It seems like the 
+Overall I was not expecting these sensors to be super accurate because they're marketed towards hobbyists. 
+Through these test results, one can conclude that sensor 1 and 2 show closer values for temperature, but senors 1 and 3 show closer values for humidity.
+Sensor 1 is very far off the actual temperature and sensor 2 gives low values for humidity. 
+
+View the raw data [here.](https://github.com/dominicassia/DHT-11_Test/blob/main/DHT-11_Test_RAW-DATA.csv)
 
 <img src="https://lh3.googleusercontent.com/DaRe4RjUAUE9lWRnWGhjj-v8JUWWEx5o74a-9pDRNqZWWqwAfZ6mbsNBOn5FUDLg4-9MGfp7HmHO2kkr4scnPilZYCriY0yYPf4K3pkU7U2cBPJAKzZIYUhTKvl8VFS5VXAgGusj4E8=w2400"/>
 
