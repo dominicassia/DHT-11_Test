@@ -4,12 +4,12 @@ Testing multiple DHT-11 Sensors to determine the accuracy
 <img src="https://lh3.googleusercontent.com/FpTd94-c-fo1DRcYY16hGLOnkOS5qpytBHnJJRolCIlcsDBe4twv1ONXZvi7PQPgZeipCSgwesBzqe9eHT3VoRhAwyE27L8vLgkdx882kZSYXVrV7MtCwE9dQ-vVCJdDA_9IZJUll7w=w2400"/>
 
 ## Contents
-- [Intro]()
-- [Materials]()
-- [Schematic]()
-- [Method]()
-- [Code]()
-- [Results]()
+- [Intro](#intro)
+- [Materials](https://github.com/dominicassia/DHT-11_Test/blob/main/README.md#materials)
+- [Schematic](https://github.com/dominicassia/DHT-11_Test/blob/main/README.md#schematic)
+- [Method](https://github.com/dominicassia/DHT-11_Test/blob/main/README.md#method)
+- [Code](https://github.com/dominicassia/DHT-11_Test/blob/main/README.md#code)
+- [Results](https://github.com/dominicassia/DHT-11_Test/blob/main/README.md#results)
 
 ## Intro
 Recently I needed temperature and humidity sensors for a project and bought a few DHT-11 sensors. 
